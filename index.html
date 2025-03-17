@@ -1,0 +1,83 @@
+<head> 
+    <meta charset="UTF-8">
+    <title>Mi Pagina Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Mi Página Web</h1>
+    <h2 class="subtitulo">Acerca de mí</h2>
+    <img src = "foto.jpg" class = "imagen">
+    <p class="presentacion">Mi nombre es Alvaro Díaz, estudiante de tercer año de ingenieria en ciencias de la computación. 
+        <br> Vengo de la hermosa ciudad de <a class="iquique" href="https://es.wikipedia.org/wiki/Iquique">iquique</a>, tengo 21 años y me apasiona bastante el mundo de la computación y la innovación, aunque no me considero un experto ni mucho menos. 
+        <br>Me encanta hacer actividades como:
+    </p>
+    <div>
+        <ul class="Lista">
+            <li>Mountainbike</li>
+            <li>Salir con amigos</li>
+            <li>Tocar piano</li>
+            <li>Jugar videojuegos</li>
+            <li>Ver Series</li>
+        </ul>
+    </div>
+    <p class="presentacion">Entre muchos otros...    </p>
+    <h2 class="subtitulo"> Mis habilidades</h2>
+    <p>Aqui pueden conocer un poco más acerca mis habilidades:</p>
+
+    
+    <table>
+        <tr>
+          <th>Habilidad</th>
+          <th>Nivel</th>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Basico</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Basico</td>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Basico</td>
+        </tr>
+        <tr>
+            <td>Git</td>
+            <td>Basico</td>
+        </tr>
+        <tr>
+            <td>Excel</td>
+            <td>Basico</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>Basico</td>
+        </tr>
+        <tr>
+            <td>Ruby</td>
+            <td>Nulo</td>
+        </tr>
+        <tr>
+            <td>Español</td>
+            <td>Nativo</td>
+        </tr>
+        <tr>
+            <td>Ingles</td>
+            <td>Avanzado</td>
+        </tr>
+        <tr>
+            <td>Sueco</td>
+            <td>Basico</td>
+        </tr>
+      </table>
+    <p class="Despedida">Pueden averiguar más de mi en <a id="despedida_link" href="https://github.com/TheRealSlimTito">mi github.</a></p>
+
+    <h2 class="subtitulo">¿Qué nota le pones a esta página?</h2>
+    <p id="nota">7.0</p> 
+    <input type="text" id="notaInput" placeholder="Introduce una nota">
+    <button id="boton" onclick="cambiarNota()">Cambiar Nota</button>
+    <script src="boton.js"></script>
+
+</body>
