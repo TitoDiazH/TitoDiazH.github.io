@@ -10,7 +10,7 @@ body {
 h1 {
     color: #D96C4F;
     font-family: "Copperplate", "Copperplate Gothic Light", sans-serif;
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -71,11 +71,11 @@ p {
     font-size: 20px
 }
 
-#despedida_link{
+.link_naranjo{
     color:#E07A5F
 }
 
-#despedida_link:hover{
+.link_naranjo:hover{
     color:#d43d15
 }
 
@@ -84,12 +84,15 @@ p {
     font-size: 40px;
 }
 
-#boton{
+button{
     color:#FAF3E0;
     background-color: #E07A5F;
 }
-
-#boton:hover{
+.btn-primary{
+    color:#FAF3E0;
+    background-color: #E07A5F;
+}
+.btn-primary:hover{
     background-color:#d43d15;
     
 }
@@ -97,4 +100,21 @@ p {
 .imagen{
     width: 300px; 
     height: auto;
+}
+
+.container-md{
+    margin-bottom: 40px;
+}
+
+#News{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.carousel-control-prev-icon{
+    background-color:#E07A5F
+}
+
+.carousel-control-next-icon{
+    background-color:#E07A5F
 }
